@@ -10,8 +10,8 @@ import (
 	"github.com/common-fate/apikit/logger"
 	"github.com/common-fate/common-fate/pkg/gconfig"
 	"github.com/common-fate/common-fate/pkg/identity"
-	"github.com/okta/okta-sdk-golang/v2/okta"
-	"github.com/okta/okta-sdk-golang/v2/okta/query"
+	"github.com/okta/okta-sdk-golang/v5/okta"
+	"github.com/okta/okta-sdk-golang/v5/okta/query"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

@@ -23,7 +23,7 @@ require (
 	github.com/go-chi/chi/v5 v5.0.7
 	github.com/golang/mock v1.6.0
 	github.com/magefile/mage v1.13.0
-	github.com/okta/okta-sdk-golang/v2 v2.13.0
+	github.com/okta/okta-sdk-golang/v5 v5.0.4
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/pkg/errors v0.9.1
 	github.com/sethvargo/go-retry v0.2.4

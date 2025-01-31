@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/okta/okta-sdk-golang/v2/okta"
-	"github.com/okta/okta-sdk-golang/v2/okta/query"
+	"github.com/okta/okta-sdk-golang/v5/okta"
+	"github.com/okta/okta-sdk-golang/v5/okta/query"
 	"github.com/stretchr/testify/assert"
 )
 
