@@ -3,7 +3,7 @@ module github.com/common-fate/common-fate
 go 1.19
 
 require (
-	github.com/AzureAD/microsoft-authentication-library-for-go v0.5.3
+	github.com/AzureAD/microsoft-authentication-library-for-go v1.3.3
 	github.com/aws/aws-sdk-go v1.44.71
 	github.com/aws/aws-sdk-go-v2 v1.18.0
 	github.com/aws/aws-sdk-go-v2/config v1.18.15
@@ -50,7 +50,7 @@ require (
 	github.com/chzyer/readline v1.5.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
+	github.com/golang-jwt/jwt/v5 v5.0.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
