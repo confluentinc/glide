@@ -17,7 +17,7 @@ require (
 	github.com/bitfield/script v0.20.2
 	github.com/common-fate/apikit v0.2.1-0.20220526131641-1d860b34f6ed
 	github.com/common-fate/cloudform v0.6.0
-	github.com/deepmap/oapi-codegen v1.11.0
+	github.com/deepmap/oapi-codegen/v2 v2.4.1
 	github.com/getkin/kin-openapi v0.107.0
 	github.com/getsentry/sentry-go v0.13.0
 	github.com/go-chi/chi/v5 v5.0.7
