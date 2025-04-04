@@ -1,6 +1,8 @@
 module github.com/common-fate/common-fate
 
-go 1.19
+go 1.22.5
+
+toolchain go1.24.2
 
 require (
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.5.3
@@ -18,7 +20,7 @@ require (
 	github.com/common-fate/apikit v0.2.1-0.20220526131641-1d860b34f6ed
 	github.com/common-fate/cloudform v0.6.0
 	github.com/deepmap/oapi-codegen v1.11.0
-	github.com/getkin/kin-openapi v0.107.0
+	github.com/getkin/kin-openapi v0.131.0
 	github.com/getsentry/sentry-go v0.13.0
 	github.com/go-chi/chi/v5 v5.0.7
 	github.com/golang/mock v1.6.0
@@ -73,11 +75,14 @@ require (
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/nathan-fiscaletti/consolesize-go v0.0.0-20220204101620-317176b6684d // indirect
+	github.com/oasdiff/yaml v0.0.0-20250309154309-f31be36b4037 // indirect
+	github.com/oasdiff/yaml3 v0.0.0-20250309153720-d2182401db90 // indirect
 	github.com/patrickmn/go-cache v0.0.0-20180815053127-5633e0862627 // indirect
+	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/r3labs/diff/v2 v2.15.1 // indirect
 	github.com/rivo/uniseg v0.3.4 // indirect
-	github.com/rogpeppe/go-internal v1.8.1 // indirect
+	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
@@ -85,7 +90,7 @@ require (
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/term v0.6.0 // indirect
@@ -113,8 +118,8 @@ require (
 	github.com/aws/smithy-go v1.13.5
 	github.com/benbjohnson/clock v1.3.0
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
-	github.com/go-openapi/jsonpointer v0.19.5 // indirect
-	github.com/go-openapi/swag v0.22.0 // indirect
+	github.com/go-openapi/jsonpointer v0.21.0 // indirect
+	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/goccy/go-json v0.9.10 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
@@ -158,7 +163,7 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/slack-go/slack v0.11.2
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.11.1
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
