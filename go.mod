@@ -127,7 +127,7 @@ require (
 	github.com/lestrrat-go/option v1.0.1 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/segmentio/ksuid v1.0.4
-	github.com/sethvargo/go-envconfig v0.8.2
+	github.com/sethvargo/go-envconfig v1.3.0
 	golang.org/x/crypto v0.21.0 // indirect
 )
 
