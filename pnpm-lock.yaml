@@ -13,7 +13,7 @@ importers:
       '@aws-sdk/client-ssm': ^3.315.0
       '@types/aws-lambda': ^8.10.114
       '@types/jest': ^26.0.24
-      '@types/node': 10.17.27
+      '@types/node': 22.15.17
       aws-cdk: ^2.75.0
       aws-cdk-lib: ^2.75.0
       aws-lambda: ^1.0.7
@@ -42,7 +42,7 @@ importers:
       '@aws-cdk/cloud-assembly-schema': 2.79.0
       '@aws-cdk/cx-api': 2.79.0_oew3sgnqzrhkz2iv2snfazi3ce
       '@types/jest': 26.0.24
-      '@types/node': 10.17.27
+      '@types/node': 22.15.17
       jest: 26.6.3_ts-node@9.1.1
       ts-jest: 26.5.6_rnfpnlbz3wqspag7uftsmccrvy
       ts-node: 9.1.1_typescript@4.7.4
@@ -67,7 +67,7 @@ importers:
       '@rjsf/core': ^4.2.3
       '@types/json-schema': ^7.0.11
       '@types/lodash.debounce': ^4.0.7
-      '@types/node': ^17.0.45
+      '@types/node': ^22.0.0
       '@types/react': ^18.0.8
       '@types/react-dom': 18.0.5
       '@types/react-helmet': ^6.1.5
@@ -147,10 +147,10 @@ importers:
       swr: 1.3.0_react@18.2.0
     devDependencies:
       '@faker-js/faker': 6.3.1
-      '@playwright/experimental-ct-react': 1.28.0_@types+node@17.0.45
+      '@playwright/experimental-ct-react': 1.28.0_@types+node@22.15.17
       '@playwright/test': 1.28.0
       '@types/json-schema': 7.0.11
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       '@types/react': 18.0.25
       '@types/react-dom': 18.0.5
       '@types/react-helmet': 6.1.5
@@ -170,7 +170,7 @@ importers:
       rollup-plugin-node-polyfills: 0.2.1
       source-map-explorer: 2.5.3
       typescript: 4.9.4
-      vite: 4.0.4_@types+node@17.0.45
+      vite: 4.0.4_@types+node@22.15.17
       vite-plugin-checker: 0.5.3_jihzztbagqlnu2zykkcievpfdq
 
 packages:
@@ -359,6 +359,7 @@ packages:
   /@aws-cdk/aws-apigatewayv2-alpha/2.55.1-alpha.0_tyhrbzjjsdlyee2dcjrk3fn4l4:
     resolution: {integrity: sha512-kvMJM//df+b/hRv/qvtc39viRyjXI9ewwwZS5Pihd+E1iZEWEz6vPrvqQmx8LqrqMs+didKb6AnNjP4QUDosQA==}
     engines: {node: '>= 14.15.0'}
+    deprecated: This package has been stabilized and moved to aws-cdk-lib
     peerDependencies:
       aws-cdk-lib: ^2.55.1
       constructs: ^10.0.0
@@ -2027,6 +2028,7 @@ packages:
   /@babel/plugin-proposal-async-generator-functions/7.20.7_@babel+core@7.20.2:
     resolution: {integrity: sha512-xMbiLsn/8RK7Wq7VeVytytS2L6qE69bXPB10YCmMdDZbKF4okCqY74pI/jJQ/8U0b/F6NrT2+14b8/P9/3AMGA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2042,6 +2044,7 @@ packages:
   /@babel/plugin-proposal-class-properties/7.18.6_@babel+core@7.20.2:
     resolution: {integrity: sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2055,6 +2058,7 @@ packages:
   /@babel/plugin-proposal-class-static-block/7.21.0_@babel+core@7.20.2:
     resolution: {integrity: sha512-XP5G9MWNUskFuP30IfFSEFB0Z6HzLIUcjYM4bYOPHXl7eiJ9HFv8tWj6TXTN5QODiEhDZAeI4hLok2iHFFV4hw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-static-block instead.
     peerDependencies:
       '@babel/core': ^7.12.0
     dependencies:
@@ -2069,6 +2073,7 @@ packages:
   /@babel/plugin-proposal-dynamic-import/7.18.6_@babel+core@7.20.2:
     resolution: {integrity: sha512-1auuwmK+Rz13SJj36R+jqFPMJWyKEDd7lLSdOj4oJK0UTgGueSAtkrCvz9ewmgyU/P941Rv2fQwZJN8s6QruXw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2091,6 +2096,7 @@ packages:
   /@babel/plugin-proposal-export-namespace-from/7.18.9_@babel+core@7.20.2:
     resolution: {integrity: sha512-k1NtHyOMvlDDFeb9G5PhUXuGj8m/wiwojgQVEhJ/fsVsMCpLyOP4h0uGEjYJKrRI+EVPlb5Jk+Gt9P97lOGwtA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-from instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2102,6 +2108,7 @@ packages:
   /@babel/plugin-proposal-json-strings/7.18.6_@babel+core@7.20.2:
     resolution: {integrity: sha512-lr1peyn9kOdbYc0xr0OdHTZ5FMqS6Di+H0Fz2I/JwMzGmzJETNeOFq2pBySw6X/KFL5EWDjlJuMsUGRFb8fQgQ==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2113,6 +2120,7 @@ packages:
   /@babel/plugin-proposal-logical-assignment-operators/7.20.7_@babel+core@7.20.2:
     resolution: {integrity: sha512-y7C7cZgpMIjWlKE5T7eJwp+tnRYM89HmRvWM5EQuB5BoHEONjmQ8lSNmBUwOyy/GFRsohJED51YBF79hE1djug==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2124,6 +2132,7 @@ packages:
   /@babel/plugin-proposal-nullish-coalescing-operator/7.18.6_@babel+core@7.20.2:
     resolution: {integrity: sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2135,6 +2144,7 @@ packages:
   /@babel/plugin-proposal-numeric-separator/7.18.6_@babel+core@7.20.2:
     resolution: {integrity: sha512-ozlZFogPqoLm8WBr5Z8UckIoE4YQ5KESVcNudyXOR8uqIkliTEgJ3RoketfG6pmzLdeZF0H/wjE9/cCEitBl7Q==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2146,6 +2156,7 @@ packages:
   /@babel/plugin-proposal-object-rest-spread/7.20.7_@babel+core@7.20.2:
     resolution: {integrity: sha512-d2S98yCiLxDVmBmE8UjGcfPvNEUbA1U5q5WxaWFUGRzJSVAZqm5W6MbPct0jxnegUZ0niLeNX+IOzEs7wYg9Dg==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2160,6 +2171,7 @@ packages:
   /@babel/plugin-proposal-optional-catch-binding/7.18.6_@babel+core@7.20.2:
     resolution: {integrity: sha512-Q40HEhs9DJQyaZfUjjn6vE8Cv4GmMHCYuMGIWUnlxH6400VGxOuwWsPt4FxXxJkC/5eOzgn0z21M9gMT4MOhbw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2171,6 +2183,7 @@ packages:
   /@babel/plugin-proposal-optional-chaining/7.21.0_@babel+core@7.20.2:
     resolution: {integrity: sha512-p4zeefM72gpmEe2fkUr/OnOXpWEf8nAgk7ZYVqqfFiyIG7oFfVZcCrU64hWn5xp4tQ9LkV4bTIa5rD0KANpKNA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2183,6 +2196,7 @@ packages:
   /@babel/plugin-proposal-private-methods/7.18.6_@babel+core@7.20.2:
     resolution: {integrity: sha512-nutsvktDItsNn4rpGItSNV2sz1XwS+nfU0Rg8aCx3W3NOKVzdMjJRu0O5OkgDp3ZGICSTbgRpxZoWsxoKRvbeA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2196,6 +2210,7 @@ packages:
   /@babel/plugin-proposal-private-property-in-object/7.21.0_@babel+core@7.20.2:
     resolution: {integrity: sha512-ha4zfehbJjc5MmXBlHec1igel5TJXXLDDRbuJ4+XT2TJcyD9/V1919BA8gMvsdHcNMBy4WBUBiRb3nw/EQUtBw==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -2211,6 +2226,7 @@ packages:
   /@babel/plugin-proposal-unicode-property-regex/7.18.6_@babel+core@7.20.2:
     resolution: {integrity: sha512-2BShG/d5yoZyXZfVePH91urL5wTG6ASZU9M4o03lKK8u8UW1y08OMttBSOADTcJrnPMpvDXRG3G8fyLh4ovs8w==}
     engines: {node: '>=4'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
@@ -4791,7 +4807,7 @@ packages:
     engines: {node: '>= 10.14.2'}
     dependencies:
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       chalk: 4.1.2
       jest-message-util: 26.6.2
       jest-util: 26.6.2
@@ -4807,7 +4823,7 @@ packages:
       '@jest/test-result': 26.6.2
       '@jest/transform': 26.6.2
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       exit: 0.1.2
@@ -4851,7 +4867,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       jest-mock: 26.6.2
     dev: true
 
@@ -4861,7 +4877,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 29.5.0
       '@jest/types': 29.5.0
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       jest-mock: 29.5.0
     dev: false
 
@@ -4871,7 +4887,7 @@ packages:
     dependencies:
       '@jest/types': 26.6.2
       '@sinonjs/fake-timers': 6.0.1
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       jest-message-util: 26.6.2
       jest-mock: 26.6.2
       jest-util: 26.6.2
@@ -4883,7 +4899,7 @@ packages:
     dependencies:
       '@jest/types': 29.5.0
       '@sinonjs/fake-timers': 10.1.0
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       jest-message-util: 29.5.0
       jest-mock: 29.5.0
       jest-util: 29.5.0
@@ -5004,7 +5020,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       '@types/yargs': 15.0.14
       chalk: 4.1.2
 
@@ -5014,7 +5030,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       '@types/yargs': 16.0.5
       chalk: 4.1.2
     dev: false
@@ -5026,7 +5042,7 @@ packages:
       '@jest/schemas': 29.4.3
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       '@types/yargs': 17.0.24
       chalk: 4.1.2
     dev: false
@@ -5186,13 +5202,13 @@ packages:
     resolution: {integrity: sha512-Aq58f5HiWdyDlFffbbSjAlv596h/cOnt2DO1w3DOC7OJ5EHs0hd/nycJfiu9RJbT6Yk6F1knnRRXNSpxoIVZ9Q==}
     dev: true
 
-  /@playwright/experimental-ct-react/1.28.0_@types+node@17.0.45:
+  /@playwright/experimental-ct-react/1.28.0_@types+node@22.15.17:
     resolution: {integrity: sha512-qjEI0pFNoAUeiP1UpbOSPD75DmftfxDL3WehvmtsXZyg+/qfft08YkVZ5BiohynvimyUHTzhsqoewr8NAWO4tg==}
     engines: {node: '>=14'}
     dependencies:
       '@playwright/test': 1.28.0
       '@vitejs/plugin-react': 2.2.0_vite@3.2.4
-      vite: 3.2.4_@types+node@17.0.45
+      vite: 3.2.4_@types+node@22.15.17
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5208,7 +5224,7 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       playwright-core: 1.28.0
     dev: true
 
@@ -6010,7 +6026,7 @@ packages:
       '@stoplight/spectral-rulesets': 1.14.1
       '@stoplight/spectral-runtime': 1.1.2
       '@stoplight/types': 13.8.0
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       pony-cause: 1.1.1
       rollup: 2.79.1
       tslib: 2.5.0
@@ -6030,7 +6046,7 @@ packages:
       '@stoplight/spectral-runtime': 1.1.2
       '@stoplight/types': 13.8.0
       '@stoplight/yaml': 4.2.3
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       ajv: 8.11.2
       ast-types: 0.14.2
       astring: 1.8.3
@@ -6171,7 +6187,7 @@ packages:
   /@types/es-aggregate-error/1.0.2:
     resolution: {integrity: sha512-erqUpFXksaeR2kejKnhnjZjbFxUpGZx4Z7ydNL9ie8tEhXPiZTsLeUDJ6aR1F8j5wWUAtOAQWUqkc7givBJbBA==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
     dev: true
 
   /@types/estree/0.0.39:
@@ -6185,7 +6201,7 @@ packages:
   /@types/graceful-fs/4.1.5:
     resolution: {integrity: sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
     dev: true
 
   /@types/hast/2.3.4:
@@ -6251,12 +6267,10 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node/10.17.27:
-    resolution: {integrity: sha512-J0oqm9ZfAXaPdwNXMMgAhylw5fhmXkToJd06vuDUSAgEDZ/n/69/69UmyBZbc+zT34UnShuDSBqvim3SPnozJg==}
-    dev: true
-
-  /@types/node/17.0.45:
-    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+  /@types/node/22.15.17:
+    resolution: {integrity: sha512-wIX2aSZL5FE+MR0JlvF87BNVrtFWf6AE6rxSE9X7OwnVvoyCQjpzSRJ+M87se/4QCkCiebQAqrJ0y6fwIyi7nw==}
+    dependencies:
+      undici-types: 6.21.0
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -6322,7 +6336,7 @@ packages:
   /@types/set-cookie-parser/2.4.2:
     resolution: {integrity: sha512-fBZgytwhYAUkj/jC/FAV4RQ5EerRup1YQsXQCh8rZfiHkc4UahC192oH0smGwsXol3cL3A5oETuAHeQHmhXM4w==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
     dev: true
 
   /@types/stack-utils/2.0.1:
@@ -6553,7 +6567,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.20.2
       magic-string: 0.26.7
       react-refresh: 0.14.0
-      vite: 3.2.4_@types+node@17.0.45
+      vite: 3.2.4_@types+node@22.15.17
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10175,7 +10189,7 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       jest-mock: 26.6.2
       jest-util: 26.6.2
       jsdom: 16.7.0
@@ -10193,7 +10207,7 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       jest-mock: 26.6.2
       jest-util: 26.6.2
     dev: true
@@ -10205,7 +10219,7 @@ packages:
       '@jest/environment': 29.5.0
       '@jest/fake-timers': 29.5.0
       '@jest/types': 29.5.0
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       jest-mock: 29.5.0
       jest-util: 29.5.0
     dev: false
@@ -10220,7 +10234,7 @@ packages:
     dependencies:
       '@jest/types': 26.6.2
       '@types/graceful-fs': 4.1.5
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.10
@@ -10246,7 +10260,7 @@ packages:
       '@jest/source-map': 26.6.2
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       chalk: 4.1.2
       co: 4.6.0
       expect: 26.6.2
@@ -10320,7 +10334,7 @@ packages:
     engines: {node: '>= 10.14.2'}
     dependencies:
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
     dev: true
 
   /jest-mock/29.5.0:
@@ -10328,7 +10342,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.5.0
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       jest-util: 29.5.0
     dev: false
 
@@ -10387,7 +10401,7 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       chalk: 4.1.2
       emittery: 0.7.2
       exit: 0.1.2
@@ -10455,7 +10469,7 @@ packages:
     resolution: {integrity: sha512-S5wqyz0DXnNJPd/xfIzZ5Xnp1HrJWBczg8mMfMpN78OJ5eDxXyf+Ygld9wX1DnUWbIbhM1YDY95NjR4CBXkb2g==}
     engines: {node: '>= 10.14.2'}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       graceful-fs: 4.2.10
     dev: true
 
@@ -10463,7 +10477,7 @@ packages:
     resolution: {integrity: sha512-jZCyo6iIxO1aqUxpuBlwTDMkzOAJS4a3eYz3YzgxxVQFwLeSA7Jfq5cbqCY+JLvTDrWirgusI/0KwxKMgrdf7w==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       graceful-fs: 4.2.10
     dev: false
 
@@ -10496,7 +10510,7 @@ packages:
     engines: {node: '>= 10.14.2'}
     dependencies:
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       chalk: 4.1.2
       graceful-fs: 4.2.10
       is-ci: 2.0.0
@@ -10508,7 +10522,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.10
@@ -10520,7 +10534,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.5.0
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.10
@@ -10544,7 +10558,7 @@ packages:
     dependencies:
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       jest-util: 26.6.2
@@ -10555,7 +10569,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -10564,7 +10578,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: false
@@ -13265,6 +13279,7 @@ packages:
 
   /rimraf/2.2.8:
     resolution: {integrity: sha512-R5KMKHnPAQaZMqLOsyuyUmcIjSeDm+73eoqQpaXA7AZ22BL+6C+1mcUscgOsNd8WVlJuvlgAPsegcx7pjlV0Dg==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dev: false
 
@@ -13957,6 +13972,7 @@ packages:
 
   /sudo-prompt/9.2.1:
     resolution: {integrity: sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dev: false
 
   /supports-color/5.5.0:
@@ -14369,6 +14385,9 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
+  /undici-types/6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+
   /unfetch/4.2.0:
     resolution: {integrity: sha512-F9p7yYCn6cIW9El1zi0HI6vqpeIvBsr3dSuRO6Xuppb1u5rXpCPmMvLSyECLhybr9isec8Ohl0hPekMVrEinDA==}
     dev: false
@@ -14771,14 +14790,14 @@ packages:
       strip-ansi: 6.0.1
       tiny-invariant: 1.3.1
       typescript: 4.9.4
-      vite: 4.0.4_@types+node@17.0.45
+      vite: 4.0.4_@types+node@22.15.17
       vscode-languageclient: 7.0.0
       vscode-languageserver: 7.0.0
       vscode-languageserver-textdocument: 1.0.7
       vscode-uri: 3.0.6
     dev: true
 
-  /vite/3.2.4_@types+node@17.0.45:
+  /vite/3.2.4_@types+node@22.15.17:
     resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -14803,7 +14822,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       esbuild: 0.15.15
       postcss: 8.4.19
       resolve: 1.22.1
@@ -14812,7 +14831,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.0.4_@types+node@17.0.45:
+  /vite/4.0.4_@types+node@22.15.17:
     resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -14837,7 +14856,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 22.15.17
       esbuild: 0.16.16
       postcss: 8.4.21
       resolve: 1.22.1
