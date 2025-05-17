@@ -69,7 +69,7 @@
     "eslint": "8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "msw": "^0.39.2",
+    "msw": "^2.0.0",
     "openapi-client-axios-typegen": "^5.0.2",
     "orval": "^6.10.1",
     "prettier": "^2.8.8",
