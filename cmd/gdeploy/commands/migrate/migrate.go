@@ -5,7 +5,7 @@ import (
 
 	"github.com/common-fate/clio"
 	"github.com/common-fate/ddb"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 //

@@ -1,7 +1,7 @@
 package users
 
 import (
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var UsersCommand = cli.Command{

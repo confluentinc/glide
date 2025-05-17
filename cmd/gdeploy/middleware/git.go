@@ -7,7 +7,7 @@ import (
 
 	"github.com/common-fate/clio"
 	"github.com/common-fate/clio/clierr"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 // RequireCleanGitWorktree checks if this is a git repo and if so, checks that the worktree is clean.

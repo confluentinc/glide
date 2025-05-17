@@ -1,6 +1,6 @@
 package middleware
 
-import "github.com/urfave/cli/v2"
+import "github.com/urfave/cli/v3"
 
 func ShouldShowHelp(c *cli.Context) bool {
 	args := c.Args().Slice()

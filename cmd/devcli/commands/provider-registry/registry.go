@@ -10,7 +10,7 @@ import (
 	"github.com/common-fate/common-fate/internal/build"
 	"github.com/common-fate/provider-registry-sdk-go/pkg/providerregistrysdk"
 	"github.com/olekukonko/tablewriter"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var Command = cli.Command{

@@ -6,7 +6,7 @@ import (
 	"github.com/common-fate/clio"
 	"github.com/common-fate/common-fate/pkg/deploy"
 	slacknotifier "github.com/common-fate/common-fate/pkg/notifiers/slack"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var testSlackCommand = cli.Command{

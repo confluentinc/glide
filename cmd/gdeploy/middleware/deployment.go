@@ -10,7 +10,7 @@ import (
 	"github.com/common-fate/common-fate/internal/build"
 	"github.com/common-fate/common-fate/pkg/deploy"
 	"github.com/hashicorp/go-version"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 func RequireDeploymentConfig() cli.BeforeFunc {

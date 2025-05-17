@@ -2,7 +2,7 @@ package cache
 
 import (
 	"github.com/common-fate/common-fate/cmd/gdeploy/commands/cache/sync"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var Command = cli.Command{

@@ -3,7 +3,7 @@ package dashboard
 import (
 	"github.com/common-fate/common-fate/pkg/deploy"
 	"github.com/pkg/browser"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var openCommand = cli.Command{

@@ -7,7 +7,7 @@ import (
 	"github.com/common-fate/clio/clierr"
 	"github.com/common-fate/common-fate/internal"
 	"github.com/common-fate/common-fate/pkg/deploy"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var InitCommand = cli.Command{

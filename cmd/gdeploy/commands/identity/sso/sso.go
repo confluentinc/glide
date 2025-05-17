@@ -2,7 +2,7 @@ package sso
 
 import (
 	"github.com/common-fate/common-fate/pkg/deploy"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var SSOCommand = cli.Command{

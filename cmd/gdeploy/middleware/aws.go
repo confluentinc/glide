@@ -12,7 +12,7 @@ import (
 	"github.com/common-fate/clio/clierr"
 	"github.com/common-fate/common-fate/pkg/cfaws"
 	"github.com/common-fate/common-fate/pkg/deploy"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 // RequireAWSCredentials attempts to load aws credentials, if they don't exist, iot returns a clio.CLIError

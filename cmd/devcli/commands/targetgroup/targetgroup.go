@@ -10,7 +10,7 @@ import (
 	"github.com/common-fate/provider-registry-sdk-go/pkg/handlerclient"
 	"github.com/joho/godotenv"
 	"github.com/sethvargo/go-envconfig"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 // this command can be run in dev with:

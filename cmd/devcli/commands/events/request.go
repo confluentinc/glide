@@ -6,7 +6,7 @@ import (
 	"github.com/common-fate/common-fate/pkg/storage"
 	"github.com/common-fate/ddb"
 	"github.com/pkg/errors"
-	"github.com/urfave/cli/v2"
+	"github.com/urfave/cli/v3"
 )
 
 var requestCommand = cli.Command{
