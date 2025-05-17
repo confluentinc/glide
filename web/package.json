@@ -21,7 +21,7 @@
     "@aws-amplify/core": "^4.5.6",
     "@chakra-ui/anatomy": "^2.0.5",
     "@chakra-ui/icons": "^2.0.8",
-    "@chakra-ui/react": "^2.2.8",
+    "@chakra-ui/react": "^3.0.0",
     "@chakra-ui/theme-tools": "^2.0.10",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
