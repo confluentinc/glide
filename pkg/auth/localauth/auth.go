@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/common-fate/common-fate/pkg/auth"
-	"github.com/lestrrat-go/jwx/jwk"
-	"github.com/lestrrat-go/jwx/jwt"
+	"github.com/lestrrat-go/jwx/v3/jwk"
+	"github.com/lestrrat-go/jwx/v3/jwt"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 )
