@@ -1,6 +1,8 @@
 module github.com/common-fate/common-fate
 
-go 1.19
+go 1.21
+
+toolchain go1.24.3
 
 require (
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.5.3
@@ -24,7 +26,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/magefile/mage v1.13.0
 	github.com/okta/okta-sdk-golang/v2 v2.13.0
-	github.com/olekukonko/tablewriter v0.0.5
+	github.com/olekukonko/tablewriter v1.0.5
 	github.com/pkg/errors v0.9.1
 	github.com/sethvargo/go-retry v0.2.4
 	go.uber.org/zap v1.23.0
@@ -68,11 +70,13 @@ require (
 	github.com/labstack/echo/v4 v4.9.1 // indirect
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.16 // indirect
-	github.com/mattn/go-runewidth v0.0.13 // indirect
+	github.com/mattn/go-isatty v0.0.19 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/nathan-fiscaletti/consolesize-go v0.0.0-20220204101620-317176b6684d // indirect
+	github.com/olekukonko/errors v0.0.0-20250405072817-4e6d85265da6 // indirect
+	github.com/olekukonko/ll v0.0.7 // indirect
 	github.com/patrickmn/go-cache v0.0.0-20180815053127-5633e0862627 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/r3labs/diff/v2 v2.15.1 // indirect
@@ -151,7 +155,7 @@ require (
 	github.com/common-fate/ddb v0.15.1-0.20230424033643-2558c36a3a5e
 	github.com/common-fate/iso8601 v1.1.1
 	github.com/common-fate/provider-registry-sdk-go v0.17.1
-	github.com/fatih/color v1.13.0
+	github.com/fatih/color v1.15.0
 	github.com/go-chi/cors v1.2.1
 	github.com/hashicorp/go-version v1.6.0
 	github.com/lestrrat-go/jwx v1.2.29
