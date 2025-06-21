@@ -20,7 +20,7 @@ require (
 	github.com/deepmap/oapi-codegen v1.11.0
 	github.com/getkin/kin-openapi v0.107.0
 	github.com/getsentry/sentry-go v0.13.0
-	github.com/go-chi/chi/v5 v5.0.7
+	github.com/go-chi/chi/v5 v5.2.2
 	github.com/golang/mock v1.6.0
 	github.com/magefile/mage v1.13.0
 	github.com/okta/okta-sdk-golang/v2 v2.13.0
