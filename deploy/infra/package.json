@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@aws-cdk/aws-apigatewayv2-authorizers-alpha": "2.55.1-alpha.0",
-    "@aws-cdk/cloud-assembly-schema": "^2.75.0",
+    "@aws-cdk/cloud-assembly-schema": "^48.0.0",
     "@aws-cdk/cx-api": "^2.75.0",
     "@types/jest": "^26.0.24",
     "@types/node": "10.17.27",
